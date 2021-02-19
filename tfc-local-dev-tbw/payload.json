@@ -1,0 +1,8 @@
+{
+    "data": {
+        "attributes": {
+            "terraform-version": "0.13.6"
+        },
+        "type": "workspaces"
+    }
+}

@@ -1,0 +1,5 @@
+rm -rf .terraform/ *.tfplan terraform.tfstate*
+tfh workspace delete; tf12 init; tf12 apply -auto-approve
+# edit m.tf
+rm -rf .terraform; tfh workspace update -terraform-version 0.13.6; tf13 init; tf13 apply -auto-approve
+
